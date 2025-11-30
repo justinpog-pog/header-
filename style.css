@@ -1,0 +1,35 @@
+.site-header {
+    display: flex;
+    justify-content: space-between; /* Distribue l'espace entre le logo, la nav et le bouton */
+    align-items: center;           /* Centre verticalement tous les éléments */
+    padding: 10px 5%;              /* Ajoute de l'espace autour du contenu */
+    background-color: #f4f4f4;      /* Couleur de fond de l'en-tête */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-nav ul {
+    display: flex;          /* Aligne les éléments de la liste horizontalement */
+    list-style: none;       /* Supprime les puces des listes */
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li a {
+    margin: 0 15px;         /* Espacement entre les liens de navigation */
+    text-decoration: none;
+    color: #333;
+}
+
+.button-cta {
+    background-color: #007bff; /* Couleur du bouton */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styles de base pour le logo si c'est du texte */
+
+.logo img {
+    height: 40px;
+}
